@@ -13,5 +13,6 @@ public class Main {
         int result = lcs.LCS(x, y, x.length, y.length);
 
         System.out.println("The Longest Common Subsequence is: " + result);
+        sc.close();
     }
 }
